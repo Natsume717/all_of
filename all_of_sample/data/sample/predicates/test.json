@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biome": "minecraft:plains"
+        }
+      },
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "sample_score": {
+            "min": 10,
+            "max": 100
+          }
+        }
+      }
+    ]
+  }
+  
